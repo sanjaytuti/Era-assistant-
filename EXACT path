@@ -1,0 +1,62 @@
+Era-assistant/
+│
+├── 📄 settings.gradle.kts
+├── 📄 build.gradle.kts
+├── 📄 gradle.properties
+├── 📄 README.md
+│
+├── 📁 .github/
+│   └── 📁 workflows/
+│       └── 📄 build.yml
+│
+├── 📁 gradle/
+│   └── 📁 wrapper/
+│       └── 📄 gradle-wrapper.properties
+│
+└── 📁 app/
+    ├── 📄 build.gradle.kts
+    ├── 📄 proguard-rules.pro
+    │
+    └── 📁 src/
+        └── 📁 main/
+            ├── 📄 AndroidManifest.xml
+            │
+            ├── 📁 java/
+            │   └── 📁 com/
+            │       └── 📁 example/
+            │           └── 📁 era/
+            │               ├── 📄 EraApp.kt
+            │               ├── 📄 MainActivity.kt
+            │               │
+            │               ├── 📁 ai/
+            │               │   └── 📄 GeminiService.kt
+            │               │
+            │               ├── 📁 core/
+            │               │   └── 📄 UserProfile.kt
+            │               │
+            │               ├── 📁 emotion/
+            │               │   ├── 📄 EmotionEngine.kt
+            │               │   └── 📄 EraPersonality.kt
+            │               │
+            │               ├── 📁 speech/
+            │               │   ├── 📄 EmotionalTTS.kt
+            │               │   └── 📄 VoiceHelper.kt
+            │               │
+            │               ├── 📁 social/
+            │               │   ├── 📄 CallReceiver.kt
+            │               │   └── 📄 EraSpeechAnnouncer.kt
+            │               │
+            │               └── 📁 util/
+            │                   ├── 📄 Extensions.kt
+            │                   └── 📄 ReminderReceiver.kt
+            │
+            └── 📁 res/
+                ├── 📁 layout/
+                │   └── 📄 activity_main.xml
+                │
+                ├── 📁 raw/
+                │   └── 📄 voice_orb.json
+                │
+                └── 📁 values/
+                    ├── 📄 strings.xml
+                    └── 📄 themes.xml
